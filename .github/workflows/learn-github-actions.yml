@@ -13,3 +13,7 @@ jobs:
           node-version: '14'
       - name: Get App Version
         run: npm run app:version
+  print_something:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello, world!
