@@ -1,10 +1,12 @@
 {
   "name": "actions",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "github actions",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "node:version": "node -v",
+    "app:version": "node -p -e \"require('./package.json').version\""
   },
   "repository": {
     "type": "git",
