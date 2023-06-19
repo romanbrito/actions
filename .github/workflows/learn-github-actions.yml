@@ -1,5 +1,5 @@
 name: learn-github-actions
-run-name: CI
+run-name: ${{ github.ref }}
 on:
   pull_request:
       branches: [ test ]
