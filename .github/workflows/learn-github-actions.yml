@@ -11,5 +11,3 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-      - run: APP_VERSION=$(node -p -e "require('./package.json').version")
-      - run: echo $APP_VERSION
