@@ -1,0 +1,23 @@
+{
+  "name": "actions",
+  "version": "1.0.0",
+  "description": "github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanbrito/actions.git"
+  },
+  "keywords": [
+    "github",
+    "actions"
+  ],
+  "author": "Roman Brito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romanbrito/actions/issues"
+  },
+  "homepage": "https://github.com/romanbrito/actions#readme"
+}
